@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="home.css"/>
     <link
       rel="shortcut icon"
       type="image/png"
@@ -19,21 +20,37 @@
     <title>Tai's personal website</title>
   </head>
   <body>
-    <img src="images/personalphoto.png" alt="Profile picture" />
-    <h1>Hey, there! I'm Tainá Alano 🙋‍♀️</h1>
-    <h2>
-      I'm a 5th-year medical student who is currently learning how to code
-    </h2>
-    <h3>This is the website where I'll store all of my little projects!</h3>
+    <header>
+      <nav>
+        <a href="index.html"><button class="link">HOME</button></a>
+        <a href="about.html"><button class="link">ABOUT ME</button></a>
+        <a href="projects.html"><button class="link">MY PROJECTS</button></a>
+      </nav>
+    </header>
+    <main>
+      <img src="images/personalphoto.png" alt="Profile picture" id="personalphoto"/>
+      <h1>Hey, there! I'm Tainá Alano 🙋‍♀️</h1>
+      <h2>
+        I'm a 5th-year medical student who is currently learning how to code
+      </h2>
+      <h3>This is the website where I'll store all of my little projects!</h3>
+  
 
-    <div id="links">
-      <a href="about.html" class="link">ABOUT ME</a>
-      <a href="projects.html" class="link">MY PROJECTS</a>
-      <a href="contact.html" class="link">CONTACT ME</a>
-    </div>
-
-    <a href="index.html" class="link" id="home">HOME</a>
-
-    <footer><p>Made with 💓</p></footer>
+  <div class="socials">
+    <a href="https://github.com/tainalano" target="_blank" >
+      <img src="images/github.svg" class="socialimage"></img>
+    </a>
+    <a href="https://twitter.com/taina_alano" target="_blank">
+      <img src="images/twitter.svg" class="socialimage"></a>
+    </a>
+    <a href="https://instagram/taialano" target="_blank">
+      <img src="images/instagram.svg" class="socialimage"></img>
+    </a> 
+  
+</div>
+</main>
+    <footer>
+      <p>Made with 💓</p>
+    </footer>
   </body>
 </html>

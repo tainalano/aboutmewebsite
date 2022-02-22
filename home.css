@@ -1,0 +1,13 @@
+.socials {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialimage {
+  width: 3.5rem;
+  height: 3.5rem;
+}

@@ -5,13 +5,17 @@
 }
 
 body {
-  min-height: 100vh;
   position: relative;
-  background-color: #141313;
-  height: 100vh;
+  min-height: 100vh;
+  background-color: #201f1f;
 }
 
-img {
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#personalphoto {
   max-width: 20%;
   width: 23vh;
   display: block;
@@ -40,28 +44,32 @@ h3 {
   color: #ffd9da;
   text-align: center;
   font-size: 1rem;
-  padding: 0rem 0rem 5rem;
+  padding: 0rem 0rem 3rem;
 }
 
-#links {
-  text-align: center;
+header {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .link {
-  text-decoration: none;
-  color: #ffd9da;
   border: none;
+  text-decoration: none;
+  cursor: pointer;
+  width: 7rem;
+  color: #ffd9da;
   background-color: #89023e;
   padding: 0.5rem 0.6rem 0.35rem;
   border-radius: 0.5rem;
-  margin: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+  transition: filter 0.2s ease-in-out;
 }
 
-#home {
-  position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
+.link:hover {
+  filter: brightness(1.2);
 }
 
 footer {
